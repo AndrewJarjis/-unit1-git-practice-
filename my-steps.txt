@@ -1,88 +1,117 @@
 ### Step 2A
-
-
+/c/Users/andre
 ### Step 2B
-
-
+cd Desktop
 ### Step 2C
-
-
+$ cd unit1-git-practice
 ### Step 2D
-
-
+cd /c/Users/andre/Desktop/unit1-git-practice
 ### Step 2E
-
-
+ls
 ### Step 2F
-
-
+ my-steps.txt
 ### Step 2G
-
+cd /c/
 
 ### Step 2H
-
-
+ pwd
 ### Step 2I
+'$Recycle.Bin'/             Nexon/                        VC_RED.MSI      eula.1042.txt           install.res.1040.dll*
+'$WinREAgent'/              OneDriveTemp/                 VC_RED.cab      eula.2052.txt           install.res.1041.dll*
+ AMD/                       PerfLogs/                     Windows/        eula.3082.txt           install.res.1042.dll*
+ AVScanner.ini             'Program Files'/               XboxGames/      globdata.ini            install.res.2052.dll*
+ Config.Msi/               'Program Files (x86)'/         end             hiberfil.sys            install.res.3082.dll*
+ DS4/                       ProgramData/                  eula.1028.txt   install.exe*            pagefile.sys
+'Documents and Settings'@   Recovery/                     eula.1031.txt   install.ini             swapfile.sys
+ DumpStack.log             'Riot Games'/                  eula.1033.txt   install.res.1028.dll*   vcredist.bmp
+ DumpStack.log.tmp         'System Volume Information'/   eula.1036.txt   install.res.1031.dll*
+ MSOCache/                  Temp/                         eula.1040.txt   install.res.1033.dll*
+ NVIDIA/                    Users/                        eula.1041.txt   install.res.1036.dll*
 
 
 ### Step 2J
-
+ cd ~
 
 ### Step 2K
-
-
+cd Desktop
+cd unit1-get-practice
 
 ### Step 3A
-
+ mkdir veggies
+ mkdir desserts
+ mkdir meats
 
 ### Step 3B
-
+ mv desserts sweets
 
 ### Step 3C
-
+mkdir protenis
 
 ### Step 3D
-
+mv meats protenis
 
 ### Step 3E
-
+ cd veggies
+touch carrot.txt
+touch pea.txt
 
 ### Step 3F
+cd ..
+cd sweets
+touch cookie.txt
 
 
 ### Step 3G
-
+mv cookie.txt donut.txt
 
 ### Step 3H
-
+ cd ..
+touch thing txt
 
 ### Step 3I
-
+ cp thing.txt tofu.txt
 
 ### Step 3J
-
+mv tofu.txt protenis
 
 ### Step 3K
+cp thing.txt crab.txt
+cd protenis
+mv crab.txt meats
 
 
 ### Step 3L
+cd ..
+rm thing.txt
 
 
 ### Step 3M
-
+cp -r veggies plants
 
 ### Step 3N
+ mkdir drinks
+rm -r drinks
 
 
 
 ### Step 4
-
-
+ git commit -m "first commit"
+[master (root-commit) 2d0a140] first commit
+ 6 files changed, 88 insertions(+)
+ create mode 100644 my-steps.txt
+ create mode 100644 protenis/meats/crab.txt
+ create mode 100644 protenis/tofu.txt
+ create mode 100644 sweets/donut.txt
+ create mode 100644 veggies/carrot.txt
+ create mode 100644 veggies/pea.txt
+git add plants
+ git commit -m "first commit"
 ### Step 5
-
+ git remote add origin https://github.com/AndrewJarjis/-unit1-git-practice-.git
 
 ### Step 6
-
+git add .
+ git commit -m "fixing folder name"
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
